@@ -12,11 +12,13 @@ slug: /
 This document was created to help mathematicians, logicians, and computer scientists as a reference. This document is a **highly opinionated way** to present mathematics in a formatted and rigorous way.
 
 Each entry has:
-* Definition
+* Definition/Theorem/Lemma
+	* With alternatives if they exist
 * Example
+	* With rigorous proofs provided using explicit axiom/logic/theorems/definition
 * Reference
 
-such that no exposition or historical background are presented. Such information can be provided elsewhere and should be provided by references to get more information. The motivation for this
+No exposition or historical background should be presented. Such information can be provided elsewhere and should be provided by references to get more information. The motivation for this
 format is to become an easier reference for working mathematicians. The general idea is to mirror API references that we see in programming libraries.
 
 For example see:

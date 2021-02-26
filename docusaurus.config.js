@@ -4,13 +4,13 @@ const katex = require('rehype-katex')
 module.exports = {
   title: 'Logic',
   tagline: 'A Philosophical Framework for Reasoning',
-  url: 'https://your-docusaurus-test-site.com',
-  baseUrl: '/',
+  url: 'https://ranytith.com',
+  baseUrl: '/logic/',
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
   favicon: 'img/favicon.ico',
-  organizationName: 'CLean', // Usually your GitHub org/user name.
-  projectName: 'Logic', // Usually your repo name.
+  organizationName: 'ranyishere', // Usually your GitHub org/user name.
+  projectName: 'logic', // Usually your repo name.
   stylesheets: [
     {
       href: 'https://cdn.jsdelivr.net/npm/katex@0.12.0/dist/katex.min.css',
@@ -100,7 +100,7 @@ module.exports = {
           sidebarPath: require.resolve('./sidebars.js'),
           // Please change this to your repo.
           editUrl:
-            'https://github.com/facebook/docusaurus/edit/master/website/',
+            'https://github.com/ranyishere/logic',
 	   remarkPlugins: [math],
 	   rehypePlugins: [katex],
         },
