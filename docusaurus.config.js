@@ -100,7 +100,7 @@ module.exports = {
           sidebarPath: require.resolve('./sidebars.js'),
           // Please change this to your repo.
           editUrl:
-            'https://github.com/ranyishere/logic',
+            'https://github.com/ranyishere/logic/blob/main/',
 	   remarkPlugins: [math],
 	   rehypePlugins: [katex],
         },
